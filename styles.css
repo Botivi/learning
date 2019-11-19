@@ -1,8 +1,16 @@
+
+.moncv {
+	list-style-type: none;
+	width: 60px;
+	}
+nav{
+	background-color: blue;
+}
 h1{
 	text-align: center;
 }
 
-div{
+section div{
 	font-family: Lucida,  Arial, sans seriff;
 	width: 50%;
 	height: 80%;
