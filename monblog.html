@@ -6,21 +6,31 @@
 	</head>
 	<body>
 		<header> 
-			<ul>
-				<li class="moncv"> Compétences </li>
-			<li class="moncv"> Formations/Diplomes </li>
-			<li class="moncv"	> Parcours professionnel </li>
-				
+			<ul class="topnav">
+					
+				<li class="moncv"> <a href="#"> Compétences</a>  </li>
+				<li class="moncv"> <a href="#">  Formations/Diplomes </a></li>
+				<li class="moncv"> <a href="#"> Parcours professionnel </a>  </li>
+				<li class="right"> <a href="#"> Botivi </a> </li>			
 			</ul>
 
 		</header>
-		<nav>
-			<div> Compétences </div>
-			<div> Formations/Diplomes </div>
-			<div> Parcours professionnel </div>
+		<nav class="header">
+			<ul>
+
+					<img src="photoprofil.jpg" alt="photoprofil" height="100px" width="100px" class="right">	
+			</ul>
+			<ul>
+				<li> Noms: 	BOGNE TIENOUE </li>
+				<li> Prénom: Vivien </li>
+				<li> Addresse email: bognevivien@yahoo.fr</li>
+				<li> Adresse actuelle: Cameroun Yaoundé </li>
+				<li> Téléphone : +237 696 287 900 </li>
+			
+			</ul>
 			
 		</nav>
-		<section>
+		<section class="CV">
 
 		<div>
 			
@@ -31,12 +41,14 @@
 
 		</div>
 
-		<div>
-			<h2> Mes compétences </h2>
+		<div class="Column Compétences">
+			<h2 > Mes compétences </h2>
 			<ul>
 				<li> Disponibilité IMMEDIATE de ma personne pour un travail partout dans le monde : dans un délai d’une semaine après signature du contrat </li> 
 				<li> Developpeur Web maitrisant les technologies: <strong> Git ; HTML5 et CSS3 ; Flask ; SQL ; Javascript ; Django </strong></b></li>
 			</ul>
+		</div>
+		<div class="Column Formations">
 			<h2> Formations Académiques </h2>
 			<table>
 				<tr>
@@ -62,6 +74,10 @@
 				</tr>
 
 			</table>
+		</div>
+		<div class="Column Professionnel">
+			
+		</div>	
 			<form> 
 				<input type="text" placeholder="Votre nom" name="name">
 				<button>Me contacter</button>
@@ -72,4 +88,4 @@
 
 
 	</body>
-</html>+
+</html>
